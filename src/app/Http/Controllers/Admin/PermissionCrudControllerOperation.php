@@ -8,7 +8,7 @@ use App\Http\Requests\PermissionUpdateCrudRequest as UpdateRequest;
 
 // VALIDATION
 
-Trait PermissionCrudController
+Trait PermissionCrudControllerOperation
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;

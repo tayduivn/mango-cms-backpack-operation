@@ -8,7 +8,7 @@ use Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
 use App\Http\Requests\TagRequest;
 use CRUD;
 
-Trait TagCrudController
+Trait TagCrudControllerOperation
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;

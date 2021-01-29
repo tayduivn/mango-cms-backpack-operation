@@ -9,7 +9,7 @@ use App\Http\Requests\RoleUpdateCrudRequest as UpdateRequest;
 
 // VALIDATION
 
-Trait RoleCrudController
+Trait RoleCrudControllerOperation
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;

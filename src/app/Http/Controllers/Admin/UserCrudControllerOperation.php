@@ -10,7 +10,7 @@ use App\Models\User;
 use Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
 use Illuminate\Support\Facades\Hash;
 
-Trait UserCrudController
+Trait UserCrudControllerOperation
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation { store as traitStore; }
