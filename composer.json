@@ -9,7 +9,6 @@
             "homepage": "author homepage"
         }
     ],
-    "homepage": "https://github.com/companyname/moderateoperation",
     "keywords": ["Laravel", "ModerateOperation"],
     "require": {
         "backpack/crud": "4.1.*",
