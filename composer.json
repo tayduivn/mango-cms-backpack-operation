@@ -9,10 +9,16 @@
             "homepage": "https://github.com/companyname/moderateoperation"
         }
     ],
-    "homepage": "https://github.com/companyname/moderateoperation",
     "keywords": ["Laravel", "ModerateOperation"],
     "require": {
-        "backpack/crud": "4.1.*"
+        "backpack/crud": "4.1.*",
+        "backpack/backupmanager": "^3.0",
+        "backpack/filemanager": "^1.1",
+        "backpack/permissionmanager": "^6.0",
+        "backpack/revise-operation": "^1.0",
+        "consoletvs/charts": "6.*",
+        "cviebrock/eloquent-sluggable": "^8.0",
+        "prologue/alerts": "^0.4.8"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
