@@ -1,0 +1,38 @@
+{
+    "name": "companyname/moderateoperation",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MangoCaptain",
+            "email": "hieu.tuhai2001@gmail.com",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/companyname/moderateoperation",
+    "keywords": ["Laravel", "ModerateOperation"],
+    "require": {
+        "backpack/crud": "4.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CompanyName\\ModerateOperation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CompanyName\\ModerateOperation\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CompanyName\\ModerateOperation\\ModerateOperationServiceProvider"
+            ]
+        }
+    }
+}
